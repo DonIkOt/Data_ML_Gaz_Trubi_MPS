@@ -1,0 +1,34 @@
+# Core
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Jupyter
+jupyterlab>=4.0.0
+ipywidgets>=8.0.0
+
+# Web App (выберите один вариант)
+streamlit>=1.28.0          # Быстрый MVP
+fastapi>=0.104.0            # Production API
+uvicorn>=0.24.0             # ASGI сервер
+python-multipart>=0.0.6     # Загрузка файлов в FastAPI
+
+# Utils
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+pyyaml>=6.0
+joblib>=1.3.0               # Сериализация моделей
+
+# Опционально — для расширенного анализа
+# lifelines>=0.27.0         # Survival Analysis (Cox PHM)
+# xgboost>=2.0.0            # Альтернатива GradientBoosting
+# lightgbm>=4.1.0           # Альтернатива GradientBoosting
+# shap>=0.43.0              # Объяснимость моделей
